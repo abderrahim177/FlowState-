@@ -12,29 +12,29 @@
 </head>
 <body>
     
-    <section id="container" class="text-center flex flex-col justify-between h-[100vh] bg-gray-300 lg:flex lg:justify-between">
+    <section id="container" class="text-center flex flex-col justify-between  bg-gray-300 lg:w-[30%] lg:m-auto lg:mt-[20px] lg:rounded-2xl lg:flex lg:justify-between">
         <article id="time" class="border-solid bg-black text-white mx-auto pt-[40px] pb-[40px] pl-[100px] pr-[100px] rounded-3xl text-[30px] mt-[10px] ">
-            <span id="minute" class="text-[40px]  font-bold">00</span>
+            <span id="minute" class="text-[40px]  font-bold lg:font-small">00</span>
             <span class="text-[40px]  font-bold">:</span>
             <span id="second" class="text-[40px]  font-bold">00</span>
         </article>
-         <article id="text-area "class="w-100% h-[500px] flex flex-col justify-between bg-white  rounded-t-3xl">
+         <article id="text-area "class="w-100% h-[500px] flex flex-col justify-between bg-white  rounded-t-3xl lg:mt-[20px]">
             <div>
-            <input id="input" class="mx-auto border-solid border-2 border-gray-900 bg-white mt-[20px] w-[90%] pt-[20px] pb-[20px] pr-[10px] pl-[10px] text-[25px] rounded-2xl" type="text" placeholder="Creat tasks . . .">
-            <button id="btn" class="w-[90%]  bg-gray-900 h-[60px] mt-[10px] rounded-3xl text-white text-[30px] font-semibold" >Creat</button>
+            <input id="input" class="mx-auto border-solid border-2 border-gray-900 bg-white mt-[20px] w-[90%] pt-[20px] pb-[20px] pr-[10px] pl-[10px] text-[25px] rounded-2xl lg:mt-[10px] lg:w-[90%] lg:pt-[10px] lg:pb-[10px] pr-[10px] pl-[10px] lg:text-[20px]" type="text" placeholder="Creat tasks . . .">
+            <button id="btn" class="w-[90%]  bg-gray-900 h-[60px] mt-[10px] rounded-3xl text-white text-[30px] font-semibold lg:h-[40px] lg:text-[20px]">Creat</button>
             </div>
              
                  <div id="tasks_container" class="mt-[20px] space-y-[10px]"></div>
 
                  
            
-            <div class="flex gap-[10px] justify-end mt-[-50px] mr-[20px]">
-                    <i id="delete" class="fa-solid fa-trash text-red-600 text-[30px]"></i>
-                    <i id="update" class="fa-solid fa-pen text-green-700 text-[30px]"></i>
+            <div class="flex gap-[10px] justify-end  mr-[20px]">
+                    <i id="delete" class="fa-solid fa-trash text-red-600 text-[30px] lg:text-[20px]"></i>
+                    <i id="update" class="fa-solid fa-pen text-green-700 text-[30px] lg:text-[20px]"></i>
                 </div>
             <div class="flex justify-around mb-[10px]">
-            <button id="start_button" class=" text-white font-bold bg-green-500 pr-[30px] pl-[30px] pt-[10px] pb-[10px] rounded-3xl text-[23px]">start 25 min</button>
-            <button id="stope_button" class="text-white font-bold  bg-red-500 pr-[30px] pl-[30px] pt-[10px] pb-[10px] rounded-3xl text-[23px]">arrete 5 min</button>
+            <button id="start_button" class=" text-white font-bold bg-green-500 pr-[30px] pl-[30px] pt-[10px] pb-[10px] rounded-3xl text-[23px] lg:w-[100px] lg:h-[40px] lg:text-[20px] lg:p-[5px]">start 25 min</button>
+            <button id="stope_button" class="text-white font-bold  bg-red-500 pr-[30px] pl-[30px] pt-[10px] pb-[10px] rounded-3xl text-[23px] lg:w-[100px] lg:h-[40px] lg:text-[20px] lg:p-[5px]">arrete 5 min</button>
             </div>
         </article>
         
